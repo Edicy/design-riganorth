@@ -1,105 +1,105 @@
 {
-  "assets": [
-    {
-      "filename": "north_style.css",
-      "file": "stylesheets/north_style.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    },
-    {
-      "filename": "north_riga-b.jpg",
-      "file": "images/north_riga-b.jpg",
-      "kind": "images",
-      "content_type": "image/jpg"
-    },
-    {
-      "filename": "north_riga-header.jpg",
-      "file": "images/north_riga-header.jpg",
-      "kind": "images",
-      "content_type": "image/jpg"
-    },
-    {
-      "filename": "north_submenu-bg.png",
-      "file": "images/north_submenu-bg.png",
-      "kind": "images",
-      "content_type": "image/png"
-    }
-  ],
+  "description": "Riga North",
+  "name": "Riga (North)",
   "preview_medium": "http://static.edicy.com/designs/previews/riga-north_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/riga-north_small.jpg",
   "author": "Tajo Oja",
   "layouts": [
     {
-      "title": "Front page",
+      "content_type": "page",
+      "component": false,
       "file": "layouts/front_page.tpl",
       "layout_name": "page_front",
-      "component": false,
-      "content_type": "page"
+      "title": "Front page"
     },
     {
-      "title": "Common page",
+      "content_type": "page",
+      "component": false,
       "file": "layouts/common_page.tpl",
       "layout_name": "page_default",
-      "component": false,
-      "content_type": "page"
+      "title": "Common page"
     },
     {
-      "title": "Blog & News",
+      "content_type": "blog",
+      "component": false,
       "file": "layouts/blog___news.tpl",
       "layout_name": "blog_front",
-      "component": false,
-      "content_type": "blog"
+      "title": "Blog & News"
     },
     {
-      "title": "Blog Article",
+      "content_type": "blog_article",
+      "component": false,
       "file": "layouts/blog_article.tpl",
       "layout_name": "blog_article",
-      "component": false,
-      "content_type": "blog_article"
+      "title": "Blog Article"
     },
     {
-      "title": "Head",
+      "content_type": "component",
+      "component": true,
       "file": "components/head.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
+      "layout_name": "head",
+      "title": "head"
     },
     {
-      "title": "Header",
-      "file": "components/header.tpl",
-      "layout_name": "",
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Sidebar",
-      "file": "components/sidebar.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Submenu",
-      "file": "components/submenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Footer",
       "file": "components/footer.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
+      "layout_name": "footer",
+      "title": "footer"
     },
     {
-      "title": "JS",
-      "file": "components/js.tpl",
-      "layout_name": "",
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
+      "file": "components/header.tpl",
+      "layout_name": "header",
+      "title": "header"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/sidebar.tpl",
+      "layout_name": "sidebar",
+      "title": "sidebar"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
     }
   ],
-  "preview_small": "http://static.edicy.com/designs/previews/riga-north_small.jpg",
-  "name": "Riga (North)",
-  "description": "Riga North"
+  "assets": [
+    {
+      "content_type": "image/jpeg",
+      "file": "images/north_riga-b.jpg",
+      "kind": "images",
+      "filename": "north_riga-b.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/north_riga-header.jpg",
+      "kind": "images",
+      "filename": "north_riga-header.jpg"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/north_submenu-bg.png",
+      "kind": "images",
+      "filename": "north_submenu-bg.png"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/north_style.css",
+      "kind": "stylesheets",
+      "filename": "north_style.css"
+    }
+  ]
 }
